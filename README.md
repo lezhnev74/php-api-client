@@ -23,8 +23,8 @@ First of all, you should instantiate Client object:
 
 $httpClient = new \Buzz\Client\Curl();
 $browser = new \Buzz\Browser($httpClient);
-
-$client = new Client('https://testing.bitcoinpaygate.com/api/v1/', $apiKey, $browser);
+$apiHost = 'https://testing-api.bitcoinpaygate.com/api/v1/';
+$client = new \BitcoinPayGate\Client($apiKey, $browser, $apiHost);
 ```
 
 ### Creating new payment request
