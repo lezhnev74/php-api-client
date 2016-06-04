@@ -53,7 +53,7 @@ class Client
         $this->browser = $httpClient;
 
         if (empty($baseUrl)) {
-            $baseUrl = 'https://testing.bitcoinpaygate.com/api/v1/';
+            $baseUrl = 'https://testing.process9100.com/api/v1/';
         }
 
         $this->baseUrl = $baseUrl;
